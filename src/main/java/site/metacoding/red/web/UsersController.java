@@ -17,7 +17,7 @@ import site.metacoding.red.web.dto.request.users.LoginDto;
 public class UsersController{
 	
 	private final HttpSession session; // 스프링이 서버시작시에 IoC 컨테이너에 보관함.
-	private final UsersDao usersDao;
+	private final UsersDao usersDao; 
 
 	@GetMapping("/logout")
 	public String logout() {

@@ -10,7 +10,7 @@
 ```sql
 create table users(
     id number primary key,
-    username varchar2(20),
+    username varchar2(20) UNIQUE,
     password varchar2(20),
     email varchar2(50),
     createdAt TIMESTAMP
