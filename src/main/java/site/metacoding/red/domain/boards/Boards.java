@@ -12,8 +12,8 @@ public class Boards {
 	private Integer usersId;
 	private Timestamp createdAt;
 	
+	//Boards 생성자 - 객체 속성의 초기 값을 설정하는데 사용
 	public Boards(String title, String content, Integer usersId) {
-		super();
 		this.title = title;
 		this.content = content;
 		this.usersId = usersId;
